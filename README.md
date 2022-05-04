@@ -17,7 +17,7 @@ I needed to practice more and I found it very interesting to make a portfolio on
 
 ### How it looks on PC?
 -------------------------------
-<img src="README assets/My-Portfolio-PC.jpeg" width="300"></img>
+<img src="README assets/My-Portfolio-PC.jpeg" width="500"></img>
 ### How it looks on mobile?
 -------------------------------
 <img src="README assets/My-Portfolio-Mobile.jpeg" width="300"></img>
