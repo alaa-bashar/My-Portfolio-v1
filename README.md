@@ -13,8 +13,11 @@ So after finishing these 3 courses from LinkedIn Learning:
 I needed to practice more and I found it very interesting to make a portfolio only by using pure HTML and CSS with an attractive design and make it responsive to different screen sizes as much as possible.
 
 ### Here is a video showing the portfolio and the code on my LinkedIn [link](https://www.linkedin.com/feed/update/urn:li:activity:6918566836125007872/)
+-------------------------------
 
 ### How it looks on PC?
+-------------------------------
 <img src="README assets/My-Portfolio-PC.jpeg" width="300"></img>
 ### How it looks on mobile?
+-------------------------------
 <img src="README assets/My-Portfolio-Mobile.jpeg" width="300"></img>
