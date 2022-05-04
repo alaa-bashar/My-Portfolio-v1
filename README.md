@@ -16,6 +16,5 @@ I needed to practice more and I found it very interesting to make a portfolio on
 
 ### How it looks on PC?
 [image](My-Portfolio-PC.jpeg)
-
-
-
+### How it looks on mobile?
+[image](My-Portfolio-mobile.jpeg)
