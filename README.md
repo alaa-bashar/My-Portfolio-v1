@@ -1,7 +1,7 @@
 # My-Portfolio-v1
 My first portfolio
 
-Responsive portfolio using HTML & CSS
+## Responsive portfolio using HTML & CSS
 -------------------------------------------
 Mastering means a lot of practice,
 
