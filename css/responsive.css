@@ -1,0 +1,78 @@
+/* Media Queires for responsive layout
+-------------------------------------------- */
+
+@media (max-width: 1120px){
+    /* Steps */
+    .Sub-step h3{
+        line-height: 1.5;
+    }
+}
+
+@media (max-width:850px){
+    /* General */
+    .Content-wrap{
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .Section-Name{
+        margin-bottom: 20px;
+    }
+
+    /* Header */
+    header{
+        justify-content: center;
+    }
+    #Navigation{
+        display: none;
+    }
+
+    /* Profile */
+    #Profile{
+        grid-template-columns: 1fr;
+        justify-content: left;
+    }
+    #Profile .Name{
+        padding-top: 45%;
+        padding-left: 0%;
+    }
+
+    /* Experience */
+    .Sub-exp{
+        margin-bottom: 20px;
+    }
+    .Main-info{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .exp-details{
+        justify-content: left;
+    }
+    .Sub-exp h3{
+        margin-bottom: 16px;
+    }
+    .Sub-exp p{
+        margin-top: 2px;
+    }
+
+    /* Skills */
+    .skills-list{
+        padding: 2rem;
+    }
+    .skills-list p{
+        padding: 0.5px 10px;
+        margin: 5px;
+    }
+
+    /* Steps */
+    .Sub-step{
+        border-radius: 40px;
+    }
+
+    /* Footer */
+    .footer-grid{
+        grid-template-columns: 1fr;
+    }
+    .who{
+        margin-top: 10px;
+    }
+}

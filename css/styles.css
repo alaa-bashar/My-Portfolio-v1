@@ -1,0 +1,294 @@
+/* Styling keys
+------------------------------------
+ - rgba(52, 52, 70, 255)    #323446
+ - rgba(40, 37, 54, 255)    #282536
+ - rgba(255, 173, 40)       #ffad28
+ - azure
+ - lightgray
+*/
+
+
+/* Global Style
+------------------------------------*/
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #323446;
+    color: azure;
+    font-family: 'Montserrat Alternates', sans-serif;
+    line-height: 1.7;
+}
+main > section{
+    padding: 5%;
+}
+.Content-wrap{
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.Section-Name{
+    font-size: xx-large;
+    text-align: center;
+    color: #ffad28;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+
+
+/* Header Style
+------------------------------------*/
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20%;
+    max-height: 3.2rem;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    box-shadow: 0px 0px 10px black;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    background-color: #323446;
+}
+header a{
+    color: azure;
+    text-decoration: none;
+}
+header h2{
+    color: azure;
+    font-size: x-large;
+    margin: 0;
+    letter-spacing: 3px;
+    padding: 10px;
+}
+#Logo h2:hover{
+    color: #ffad28;
+}
+#Navigation{
+    font-size: 1.1rem;
+}
+#Navigation a{
+    padding: 0 15px;
+}
+#Navigation a:hover{
+    color: #323446;
+    background-color: #ffad28;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+
+/* Profile Style
+------------------------------------*/
+#Profile{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-row: 1fr;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 600px;
+    height: auto;
+    background-image: url(../images/my-profile-cropped.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 40%;
+}
+#Profile .Name{
+    color: #ffad28;
+    padding-left: 20%;
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    line-height: 1.6;
+    text-shadow: 1px 2px black;
+}
+#Profile .Name span:hover{
+    color: azure;
+    text-shadow: 1px 2px 10px black;
+}
+#Profile .Profile-Details{
+    line-height: 2;
+}
+#Profile .Profile-Details h2{
+    line-height: 1;
+}
+#Profile .Profile-Details .Intro{
+    color: lightgray;
+}
+#Profile .Profile-Details .Title{
+    font-size: 1.6rem;
+}
+#Profile .Profile-Details .Title:hover{
+    color: #ffad28;
+}
+.Profile-Details .Objectives{
+    color: lightgray;
+}
+.line{
+    margin-top: 10px;
+    background-color: #ffad28;
+    width: 70px;
+    height: 10px;
+    border-radius: 20px;
+}
+
+
+/* Experience Style
+------------------------------------*/
+#Experience{
+    background-color: #282536;
+}
+.Sub-exp{
+    background-color: #323446;
+    padding: 1rem 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+.Sub-exp:hover{
+    box-shadow: 5px 5px 20px #ffad28;
+}
+.Sub-exp h3{
+    font-size: x-large;
+}
+.Sub-exp:last-child{
+    margin-bottom: 0;
+}
+.Main-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ffad28;
+}
+.comp-name{
+    font-style: italic;
+}
+.exp-details{
+    justify-content: center;
+}
+
+
+/* Skills Style
+------------------------------------*/
+.skills-list{
+    background-color: #282536;
+    padding: 2rem 3rem;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills-list p{
+    background-color: #323446;
+    border-radius: 20px;
+    text-align: center;
+    width: fit-content;
+    padding: 0.5px 20px;
+    margin: 15px auto;
+}
+.skills-list p:hover{
+    background-color: #ffad28;
+    color: #282536;
+    font-weight: bold;
+}
+
+
+/* Steps Style
+------------------------------------*/
+#Steps{
+    background-color: #282536;
+}
+.Sub-step{
+    text-decoration: none;
+    border-radius: 50px;
+    background-color: #323446;
+    padding: 1rem 2rem;
+    line-height: 0;
+    margin-bottom: 15px;
+    box-shadow: 1px 1px 5px black;
+}
+.Sub-step a{
+    text-shadow: 1px 1px 5px #323446;
+    text-decoration: none;
+    color: azure;
+}
+.Sub-step:hover{
+    background-color: #ffad28;
+    color: #323446;
+}
+.step-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+/* Footer Style
+------------------------------------*/
+footer{
+    background-color: #ffad28;
+    height: auto;
+}
+footer .Section-Name{
+    color: #282536;
+    text-shadow: 1px 1px 1px #282536;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    text-align: left;
+}
+.accounts{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.accounts a{
+    color: #282536;
+    text-decoration: none;
+}
+.accounts a h3{
+    padding: 0 15px;
+    margin: 5px 0;
+}
+.accounts a h3:hover{
+    background-color: #282536;
+    color: azure;
+    border-radius: 50px;
+}
+#linked h3:hover{
+    background-color: rgb(40, 125, 153);
+}
+#whats h3:hover{
+    background-color: rgb(57, 194, 57);
+}
+.footer-grid{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 1fr;
+}
+.who{
+    margin-top: 53px;
+}
+.who h3{
+    color: #282536;
+    margin-top: 0px;
+    border-bottom: 1px solid #282536;
+}
+.who p{
+    color: #282536;
+    padding-left: 20px;
+    line-height: 1.5;
+}
