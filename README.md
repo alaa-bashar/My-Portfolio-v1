@@ -14,5 +14,8 @@ I needed to practice more and I found it very interesting to make a portfolio on
 
 ### Here is a video showing the portfolio and the code on my LinkedIn [link](https://www.linkedin.com/feed/update/urn:li:activity:6918566836125007872/)
 
+### How it looks on PC?
+[image](My-Portfolio-PC.jpeg)
+
 
 
