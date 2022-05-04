@@ -1,4 +1,4 @@
-# My-Portfolio-v1
+# My-Portfolio-v1.0
 My first portfolio
 
 ## Responsive portfolio using HTML & CSS
